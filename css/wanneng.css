@@ -1,0 +1,18 @@
+div,ul,dl,dt,dd,li,ol,p,span,img,a,h1,h2,h3,h4,h5,h6,em,i,body,html,header,nav,footer,article,section,aside,main,form,input,textarea{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+input{
+	outline: none;
+}
+img{
+	border:none;
+	vertical-align: top;
+}
