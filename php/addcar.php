@@ -1,6 +1,6 @@
 <?php
 header('content-type:text/html;charset=utf-8;');
-$conn=mysqli_connect('localhost','root','root','shopcar');
+$conn=mysqli_connect('127.0.0.1','root','root','shopcar');
 //获取前端的参数
 $id = $_REQUEST['id'];//商品id
 $name = $_REQUEST['name'];//商品name

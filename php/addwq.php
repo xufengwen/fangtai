@@ -1,6 +1,6 @@
 <?php
 header('content-type:text/html;charset=utf-8;');
-$conn=mysqli_connect('localhost','root','root','users');
+$conn=mysqli_connect('127.0.0.1','root','root','users');
 
 //书写sql语句
 $username = $_REQUEST['username'];

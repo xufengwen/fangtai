@@ -1,6 +1,6 @@
 <?php
 header('content-type:text/html;charset=utf-8;');
-$conn=mysqli_connect('localhost','root','root','shopcar');
+$conn=mysqli_connect('127.0.0.1','root','root','shopcar');
 
 $id = $_REQUEST['id'];
 $type = $_REQUEST['type'];
